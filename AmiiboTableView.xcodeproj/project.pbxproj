@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		DF286EF325C8246200449FC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF286EF225C8246200449FC3 /* AppDelegate.swift */; };
 		DF286EF525C8246200449FC3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF286EF425C8246200449FC3 /* SceneDelegate.swift */; };
-		DF286EF725C8246200449FC3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF286EF625C8246200449FC3 /* ViewController.swift */; };
-		DF286EFA25C8246200449FC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF286EF825C8246200449FC3 /* Main.storyboard */; };
+		DF286EF725C8246200449FC3 /* AmiiboListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF286EF625C8246200449FC3 /* AmiiboListVC.swift */; };
 		DF286EFC25C8246600449FC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF286EFB25C8246600449FC3 /* Assets.xcassets */; };
 		DF286EFF25C8246600449FC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF286EFD25C8246600449FC3 /* LaunchScreen.storyboard */; };
+		DF286F0725C9298500449FC3 /* AmiiboAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF286F0625C9298500449FC3 /* AmiiboAPI.swift */; };
+		DF286F0B25C96F9800449FC3 /* AmiiboCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF286F0A25C96F9800449FC3 /* AmiiboCell.swift */; };
+		DF286F0D25CA7D3D00449FC3 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF286F0C25CA7D3C00449FC3 /* CustomImageView.swift */; };
+		DF7A08C325D1386E00ADB8A1 /* AmiiboDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A08C225D1386E00ADB8A1 /* AmiiboDetailVC.swift */; };
+		DF7A08C525D1413500ADB8A1 /* AmiiboForView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF7A08C425D1413500ADB8A1 /* AmiiboForView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DF286EEF25C8246200449FC3 /* AmiiboTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AmiiboTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF286EF225C8246200449FC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF286EF425C8246200449FC3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF286EF625C8246200449FC3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF286EF925C8246200449FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DF286EF625C8246200449FC3 /* AmiiboListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboListVC.swift; sourceTree = "<group>"; };
 		DF286EFB25C8246600449FC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DF286EFE25C8246600449FC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF286F0025C8246600449FC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF286F0625C9298500449FC3 /* AmiiboAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboAPI.swift; sourceTree = "<group>"; };
+		DF286F0A25C96F9800449FC3 /* AmiiboCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboCell.swift; sourceTree = "<group>"; };
+		DF286F0C25CA7D3C00449FC3 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		DF7A08C225D1386E00ADB8A1 /* AmiiboDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboDetailVC.swift; sourceTree = "<group>"; };
+		DF7A08C425D1413500ADB8A1 /* AmiiboForView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmiiboForView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				DF286EF225C8246200449FC3 /* AppDelegate.swift */,
 				DF286EF425C8246200449FC3 /* SceneDelegate.swift */,
-				DF286EF625C8246200449FC3 /* ViewController.swift */,
-				DF286EF825C8246200449FC3 /* Main.storyboard */,
+				DF286EF625C8246200449FC3 /* AmiiboListVC.swift */,
+				DF286F0A25C96F9800449FC3 /* AmiiboCell.swift */,
+				DF7A08C225D1386E00ADB8A1 /* AmiiboDetailVC.swift */,
+				DF286F0C25CA7D3C00449FC3 /* CustomImageView.swift */,
+				DF286F0625C9298500449FC3 /* AmiiboAPI.swift */,
+				DF7A08C425D1413500ADB8A1 /* AmiiboForView.swift */,
 				DF286EFB25C8246600449FC3 /* Assets.xcassets */,
 				DF286EFD25C8246600449FC3 /* LaunchScreen.storyboard */,
 				DF286F0025C8246600449FC3 /* Info.plist */,
@@ -127,7 +139,6 @@
 			files = (
 				DF286EFF25C8246600449FC3 /* LaunchScreen.storyboard in Resources */,
 				DF286EFC25C8246600449FC3 /* Assets.xcassets in Resources */,
-				DF286EFA25C8246200449FC3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +149,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF286EF725C8246200449FC3 /* ViewController.swift in Sources */,
+				DF286EF725C8246200449FC3 /* AmiiboListVC.swift in Sources */,
+				DF7A08C525D1413500ADB8A1 /* AmiiboForView.swift in Sources */,
+				DF286F0D25CA7D3D00449FC3 /* CustomImageView.swift in Sources */,
+				DF286F0725C9298500449FC3 /* AmiiboAPI.swift in Sources */,
+				DF7A08C325D1386E00ADB8A1 /* AmiiboDetailVC.swift in Sources */,
 				DF286EF325C8246200449FC3 /* AppDelegate.swift in Sources */,
 				DF286EF525C8246200449FC3 /* SceneDelegate.swift in Sources */,
+				DF286F0B25C96F9800449FC3 /* AmiiboCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DF286EF825C8246200449FC3 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DF286EF925C8246200449FC3 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DF286EFD25C8246600449FC3 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
